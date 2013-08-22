@@ -1,0 +1,44 @@
+title:            The Fucking Bible
+description:      Describe your website.
+
+# Owner/author information
+owner:
+  name:           James Pearson
+  #email:          cole@coletownsend.com
+  disqus:         thefuckingbible
+  
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Los_Angeles
+future:      true
+auto:        true
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+# Github settings
+# https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+safe:        true
+lsi:         false
+pygments:    true
