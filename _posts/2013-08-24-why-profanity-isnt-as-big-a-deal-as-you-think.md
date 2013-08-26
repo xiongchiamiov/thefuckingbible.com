@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why profanity isn't as big a deal as you think
-categories: essays
+category: essays
 ---
 
 The Christian ban on profanity is one of the silliest things over which we get
