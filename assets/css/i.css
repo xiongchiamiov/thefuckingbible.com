@@ -30,12 +30,22 @@ ul {
 
 blockquote, q {
   quotes: none;
+  background-color: #E8F7FF;
+  padding: 15px;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
+}
+
+blockquote p:before {
+  content: '» ';
 }
 
 :focus {
@@ -169,10 +179,6 @@ h6, .h6 {
   font-size: 12px;
 }
 
-blockquote, blockquote p {
-  font-size: 48px;
-}
-
 .archive input {
   font-size: 48px;
 }
@@ -295,7 +301,6 @@ small {
 blockquote, blockquote p {
   font-style: italic;
   line-height: 1.3em;
-  text-align: center;
   color: #3c3c3c;
   margin-bottom: 33px;
 }
